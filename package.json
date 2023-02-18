@@ -1,0 +1,26 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "В данном репозитории представлен шаблон настройки для работы сборщика Webpack 5 с препроцессором Sass, языком JavaScript, шаблонизатором Pug и языком разметки Markdown, а также настроен DevServer и режим production. Реализованы автоматическая очистка каталогов, использование Babel, оптимизация изображений и пример подключения шрифтов.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sivchenko-Anna/Webpack-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sivchenko-Anna/Webpack-template/issues"
+  },
+  "homepage": "https://github.com/Sivchenko-Anna/Webpack-template#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
